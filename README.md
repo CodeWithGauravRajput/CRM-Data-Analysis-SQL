@@ -18,11 +18,11 @@ The project helps understand sales performance, agent efficiency, product profit
 - **Tools Used:** SQL, Python (SQLAlchemy, Pandas), Power BI  
 - **Environment:** VS Code & Jupyter Notebook  
 - **Tables Used:**  
-  - `accounts` → account,sector,year_established,revenue,employees,office_location,subsidiary_of
+  - **`accounts`** → account,sector,year_established,revenue,employees,office_location,subsidiary_of
   - **`data_dictionary`** → table, field, description  
   - **`products`** → product, series, sales_price  
   - **`sales_teams`** → sales_agent, manager, regional_office
-  - `sales_pipeline` → opportunity_id,sales_agent,product,account,deal_stage,engage_date,close_date,close_value
+  - **`sales_pipeline`** → opportunity_id,sales_agent,product,account,deal_stage,engage_date,close_date,close_value
 
 ---
 
@@ -40,7 +40,7 @@ The dashboard will include visuals for:
 - 💰 Total Revenue by Product  
 - 👨‍💼 Top Performing Sales Agents  
 - 📈 Top Comapnies and Manager  
-- ⏳ Average Deal Duration by Stage  etc..
+- ⏳ Average Deal Cycle Duration  etc..
 
 ---
 
@@ -52,7 +52,7 @@ The dashboard will include visuals for:
 - **Software sector** dominates **total revenue**.  
 - **West region** leads **regional performance**.  
 - **Summer Sewald** is the **top-performing manager by Highest Revenue**.
-- - **Melvin Marxen** is the **top-performing manager by Highest Close value deals**.  
+- **Melvin Marxen** is the **top-performing manager by Highest Close value deals**.  
 - **Kan-code** is the **top Comapany**, winning the most deals.  
 - **June** is the **peak sales month** — ideal for **campaign launches**.
 
